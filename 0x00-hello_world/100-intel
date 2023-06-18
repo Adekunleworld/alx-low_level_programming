@@ -1,2 +1,6 @@
 #!/bin/bash
-gcc CFILE="main.c" ./generate_asm.sh
+CFILE="main.c"
+OUTFILE="${CFILE%.*}.s"
+
+gcc -S -masm=intel "$CFILE" -o "$OUTFILE"
+
