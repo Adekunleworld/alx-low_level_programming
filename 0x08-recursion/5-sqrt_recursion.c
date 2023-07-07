@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
@@ -30,9 +29,9 @@ int _sqrt_recursion(int n)
 
 /**
  * helper - Recursive helper function to find the square root
- * @low: The lower bound of the search range
- * @high: The upper bound of the search range.
- * @n: The number to find the square root of.
+ * @low: The lower bound of search range
+ * @high: The upper bound of search range.
+ * @n: The number to find square root of.
  *
  * Return: The square root of 'n' if it exists, otherwise -1.
  */
