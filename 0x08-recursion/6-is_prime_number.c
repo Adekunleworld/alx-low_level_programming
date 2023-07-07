@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - Checks if a number is prime
- * @n: The number to check
+ * is_prime_number - Checks if number is prime.
+ * @n: The number to check.
  *
- * Return: 1 if prime, 0 otherwise
+ * Return: 1 if prime, 0 otherwise.
  */
 int is_prime_number(int n)
 {
