@@ -9,16 +9,21 @@
  */
 int is_prime_number(int n)
 {
-	int i;
+	int i = 2;
 
 	if (n <= 1)
 		return (0);
 
-	for (i = 2; i * i <= n; i++)
-	{
-		if (n % i == 0)
-			return (0);
-	}
+	if (n == 2)
+		return (1);
+
+	if (n % i == 0)
+		return (0);
+
+	i++;
+
+	if (i * i <= n)
+		return (is_prime_number(n));
 
 	return (1);
 }
