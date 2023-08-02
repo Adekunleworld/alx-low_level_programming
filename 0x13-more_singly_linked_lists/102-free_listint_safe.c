@@ -1,3 +1,5 @@
+#include "list.h"
+
 /**
  * free_listint_safe - Frees a linked list.
  * @h: Pointer to the first node in the linked list.
